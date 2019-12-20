@@ -14,7 +14,7 @@
 .main-container {
   margin-left: 5%;
   margin-right: 5%;
-  padding-top: 50px;
+  padding-top: 80px;
   padding-bottom: 50px;
 }
 
@@ -117,15 +117,6 @@ iframe {
 }
 
 /* https://codepen.io/MaryG/pen/wJMMdw */
-/* body {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  min-height: 100vh;
-  background-color: black;
-  color: white;
-} */
-
 .notes {
   display: block;
   margin: auto;

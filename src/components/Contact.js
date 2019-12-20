@@ -1,5 +1,6 @@
 import React from 'react'
 import { Icon } from 'semantic-ui-react'
+import Notes from './Notes'
 
 const Contact = () => {
     return (
@@ -31,6 +32,8 @@ const Contact = () => {
                     https://www.instagram.com
                 </a>
             </div>
+            <br/><br/><br/>
+            <Notes />
         </>
     )
 }

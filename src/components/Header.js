@@ -19,8 +19,8 @@ class Header extends React.Component {
                 color="black"
                 inverted
                 widths={7}
-                attached
                 size="large"
+                fixed="top"
             >
                 <Menu.Item
                     as={ Link }
