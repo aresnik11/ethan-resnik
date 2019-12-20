@@ -1,24 +1,31 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import 'semantic-ui-css/semantic.min.css'
+import { Switch, Route } from 'react-router-dom'
+import Header from './components/Header'
+import Bio from './components/Bio';
+import Works from './components/Compositions';
+import Awards from './components/Recognition';
+import Photos from './components/Photos';
+import Contact from './components/Contact';
+import Homepage from './components/Homepage';
+import Error from './components/Error';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Header />
+      <div className="main-container">
+        <Switch>
+          <Route path="/bio" component={Bio} />
+          <Route path="/compositions" component={Works} />
+          <Route path="/recognition" component={Awards} />
+          <Route path="/photos" component={Photos} />
+          <Route path="/contact" component={Contact} />
+          <Route exact path="/" component={Homepage} />
+          <Route component={Error} />
+        </Switch>
+      </div>
     </div>
   );
 }
