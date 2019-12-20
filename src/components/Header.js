@@ -18,7 +18,7 @@ class Header extends React.Component {
             <Menu
                 color="black"
                 inverted
-                widths={6}
+                widths={7}
                 attached
                 size="large"
             >
@@ -55,6 +55,13 @@ class Header extends React.Component {
                     to="/photos"
                     name='photos'
                     active={this.state.activeItem === 'photos'}
+                    onClick={this.handleItemClick}
+                />
+                <Menu.Item
+                    as={ Link }
+                    to="/resume"
+                    name='resume'
+                    active={this.state.activeItem === 'resume'}
                     onClick={this.handleItemClick}
                 />
                 <Menu.Item

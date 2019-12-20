@@ -2,8 +2,8 @@ import React from 'react'
 
 const Bio = () => {
     return (
-        <div>
-            <h2 className="heading">All About Ethan</h2>
+        <>
+            <h1 className="heading">All About Ethan</h1>
             <p>
             Ethan Resnik is 17 and has been playing the piano for 11 years. He
             has composed over 40 compositions, including chamber music, a
@@ -33,7 +33,7 @@ const Bio = () => {
             who was critically injured in an accident. He wants to continue
             using his music to bring healing and hope to our world.
             </p>
-        </div>
+        </>
     )
 }
 

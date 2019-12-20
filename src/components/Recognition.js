@@ -2,7 +2,7 @@ import React from 'react'
 
 const Recognition = () => {
     return (
-        <h2 className="heading">Recognition</h2>
+        <h1 className="heading">Recognition</h1>
     )
 }
 

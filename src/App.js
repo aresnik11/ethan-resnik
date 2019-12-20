@@ -7,6 +7,7 @@ import Bio from './components/Bio';
 import Works from './components/Compositions';
 import Awards from './components/Recognition';
 import Photos from './components/Photos';
+import Resume from './components/Resume';
 import Contact from './components/Contact';
 import Homepage from './components/Homepage';
 import Error from './components/Error';
@@ -21,6 +22,7 @@ function App() {
           <Route path="/compositions" component={Works} />
           <Route path="/recognition" component={Awards} />
           <Route path="/photos" component={Photos} />
+          <Route path="/resume" component={Resume} />
           <Route path="/contact" component={Contact} />
           <Route exact path="/" component={Homepage} />
           <Route component={Error} />

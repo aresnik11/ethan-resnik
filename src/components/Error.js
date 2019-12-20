@@ -2,8 +2,8 @@ import React from 'react'
 
 const Error = () => {
     return (
-        <div>
-            <h2 className="heading">Page Not Found</h2>
+        <>
+            <h1 className="heading">Page Not Found</h1>
             <br/><br/>
             <div class="notes">
                 <div class="note-1">
@@ -19,7 +19,7 @@ const Error = () => {
                     &#9834;
                 </div>
             </div>
-        </div>
+        </>
     )
 }
 
