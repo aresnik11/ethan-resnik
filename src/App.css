@@ -9,6 +9,10 @@
 
 .App {
   text-align: center;
+  /* background: url('https://images.unsplash.com/photo-1538402074774-8e624f3f7e5d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80');
+  background-position: center;
+  background-repeat: repeat-y;
+  background-position: right top; */
 }
 
 .main-container {
@@ -115,6 +119,37 @@ p a {
 iframe {
   border: none;
 }
+
+.photo-xs {
+  width: 15%;
+}
+
+.photo-small {
+  width: 20%;
+}
+
+.photo-medium {
+  width: 35%;
+}
+
+.photo-large {
+  width: 75%;
+}
+
+/* 
+.home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.home div {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+} */
 
 /* https://codepen.io/MaryG/pen/wJMMdw */
 .notes {

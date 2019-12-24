@@ -1,8 +1,10 @@
 import React from 'react'
+import about from '../assets/about.jpg'
 
 const Bio = () => {
     return (
         <>
+            <img src={about} alt="Ethan Resnik" className="photo-large" />
             <h1 className="heading">All About Ethan</h1>
             <p>
             Ethan Resnik is 17 and has been playing the piano for 11 years. He

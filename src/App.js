@@ -11,7 +11,6 @@ import Resume from './components/Resume';
 import Contact from './components/Contact';
 import Homepage from './components/Homepage';
 import Error from './components/Error';
-import Footer from './components/Footer';
 
 function App() {
   return (
