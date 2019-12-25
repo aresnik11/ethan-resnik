@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react";
 import performance from '../assets/performance.jpeg'
 import performance2 from '../assets/performance2.jpeg'
 import npr_article from '../assets/npr_article.jpeg'
@@ -10,11 +10,17 @@ const Photos = () => {
     return (
         <>
             <h1 className="heading">Take a Look!</h1>
+            <br/>
             <img src={performance} alt="Performance" className="photo-large" />
+            <br/><br/>
             <img src={performance2} alt="Performance" className="photo-large" />
+            <br/><br/>
             <img src={npr_article} alt="NPR From the Top Article" className="photo-medium" />
+            <br/><br/>
             <img src={piano_performance} alt="Piano Performance" className="photo-large" />
+            <br/><br/>
             <img src={performance3} alt="Performance" className="photo-large" />
+            <br/><br/>
             <img src={performance4} alt="Performance" className="photo-large" />
         </>
     )

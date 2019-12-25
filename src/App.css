@@ -15,6 +15,7 @@
   background-position: right top; */
 }
 
+/* adds padding and margin to main container */
 .main-container {
   margin-left: 5%;
   margin-right: 5%;
@@ -30,79 +31,61 @@
 
 #name2 {
   font-size: 72px;
-  font-family: 'Jacques Francois Shadow', cursive;
+  font-family: 'Fredericka the Great', cursive;
   font-weight: normal;
-  text-transform: uppercase;
 }
 
 #name3 {
   font-size: 72px;
-  font-family: 'Fredericka the Great', cursive;
+  font-family: 'Londrina Shadow', cursive;
   font-weight: normal;
 }
 
 #name4 {
   font-size: 72px;
-  font-family: 'Fredericka the Great', cursive;
-  font-weight: normal;
-  text-transform: uppercase;
-}
-
-#name5 {
-  font-size: 72px;
-  font-family: 'Londrina Shadow', cursive;
-  font-weight: normal;
-}
-
-#name6 {
-  font-size: 72px;
-  font-family: 'Londrina Shadow', cursive;
-  font-weight: normal;
-  text-transform: uppercase;
-}
-
-#name7 {
-  font-size: 72px;
   font-family: 'Thasadith', sans-serif;
   font-weight: normal;
 }
 
-#name8 {
+#name5 {
   font-size: 72px;
   font-family: 'Overlock SC', cursive;
   font-weight: normal;
 }
 
-#name9 {
+#name6 {
   font-size: 72px;
   font-family: 'Boogaloo', cursive;
   font-weight: normal;
 }
 
-#name10 {
+#name7 {
   font-size: 72px;
   font-family: 'Solway', serif;
   font-weight: normal;
 }
 
-#name11 {
+#name8 {
   font-size: 72px;
   font-family: 'Merriweather', serif;
   font-weight: normal;
 }
 
-#name12 {
+#name9 {
   font-size: 72px;
 }
 
+/* sets icons to match color scheme */
 svg, i {
   color: rgba(0,0,0,.87);
 }
 
+/* increases font size for headings */
 .heading {
   font-size: 36px;
 }
 
+/* increases font size for paragraphs */
 p {
   font-size: 18px;
 }
@@ -111,15 +94,18 @@ p a {
   text-decoration: underline;
 }
 
+/* sets resume container to full width and view height */
 #resume {
   width: 100%;
   height: 100vh;
 }
 
+/* removes border from all iframes */
 iframe {
   border: none;
 }
 
+/* sets width of images of different sizes */
 .photo-xs {
   width: 15%;
 }
@@ -136,20 +122,47 @@ iframe {
   width: 75%;
 }
 
-/* 
-.home {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.icons {
+  text-align: left;
+  margin: auto;
+  width: fit-content;
 }
 
-.home div {
-  display: flex;
-  flex: 1;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-} */
+/* sets mobile hamburger menu icon to not display on desktop */
+#menu {
+  display: none;
+}
+
+#menu a {
+  justify-content: left;
+  padding-left: 20px;
+}
+
+#menu i {
+  color: white;
+  padding-left: 20px;
+}
+
+/* when menu starts to stack */
+@media only screen and (max-width: 767px) {
+  /* hide menu and add margin */
+  .ui.black.large.inverted.stackable.top.fixed.seven.item.menu {
+    display: none;
+    margin-top: 43px;
+  }
+
+  /* show mobile hamburger menu icon */
+  #menu {
+    display: flex;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  /* reshow full menu on resize of window */
+  .ui.black.large.inverted.stackable.top.fixed.seven.item.menu {
+    display: flex!important;
+  }
+}
 
 /* https://codepen.io/MaryG/pen/wJMMdw */
 .notes {

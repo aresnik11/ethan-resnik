@@ -19,17 +19,17 @@ const Contact = () => {
                     &nbsp;&nbsp;&nbsp;&nbsp;
                     914-406-6703
                 </a>
-                <br/><br/>
+                {/* <br/><br/>
                 <a href="https://www.youtube.com/channel/UCKISvqGCXDr0hbyTWrn9Jlg" target="_blank" rel="noopener noreferrer">
                     <Icon name="youtube" size="huge" />
                     &nbsp;&nbsp;&nbsp;&nbsp;
                     https://www.youtube.com/channel/UCKISvqGCXDr0hbyTWrn9Jlg
-                </a>
+                </a> */}
                 <br/><br/>
-                <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer">
+                <a href="https://www.instagram.com/ethresnik" target="_blank" rel="noopener noreferrer">
                     <Icon name="instagram" size="huge" />
                     &nbsp;&nbsp;&nbsp;&nbsp;
-                    https://www.instagram.com
+                    @ethresnik
                 </a>
             </div>
             <br/><br/><br/>
