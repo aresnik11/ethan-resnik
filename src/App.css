@@ -1,98 +1,94 @@
-@import url('https://fonts.googleapis.com/css?family=Jacques+Francois+Shadow&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Fredericka+the+Great&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Londrina+Shadow&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Thasadith:700&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Overlock+SC&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Boogaloo&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Solway:500&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Merriweather:700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Merriweather:400,700,900&display=swap');
+
+/* GENERAL */
 
 .App {
   text-align: center;
-  /* background: url('https://images.unsplash.com/photo-1538402074774-8e624f3f7e5d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80');
+  min-height: 100vh;
+
+  /* background-color: #b8c6db;
+  background-image: linear-gradient(315deg, #b8c6db 0%, #f5f7fa 74%); */
+
+  /* background: #ECE9E6;
+  background: -webkit-linear-gradient(to left, #FFFFFF, #ECE9E6);
+  background: linear-gradient(to left, #FFFFFF, #ECE9E6); */
+
+  /* background: #8e9eab;
+  background: -webkit-linear-gradient(to right, #eef2f3, #8e9eab);  
+  background: linear-gradient(to right, #eef2f3, #8e9eab); */
+
+  /* background: url('./assets/piano.jpeg');
   background-position: center;
   background-repeat: repeat-y;
-  background-position: right top; */
+  background-position: right top;
+  display: grid;
+  grid-template-columns: 2fr 1fr; */
 }
 
 /* adds padding and margin to main container */
 .main-container {
   margin-left: 5%;
   margin-right: 5%;
-  padding-top: 80px;
+  padding-top: 85px;
   padding-bottom: 50px;
 }
 
-#name1 {
-  font-size: 72px;
-  font-family: 'Jacques Francois Shadow', cursive;
-  font-weight: normal;
-}
+/* FONT SIZES AND ICONS */
 
-#name2 {
-  font-size: 72px;
-  font-family: 'Fredericka the Great', cursive;
-  font-weight: normal;
-}
-
-#name3 {
-  font-size: 72px;
-  font-family: 'Londrina Shadow', cursive;
-  font-weight: normal;
-}
-
-#name4 {
-  font-size: 72px;
-  font-family: 'Thasadith', sans-serif;
-  font-weight: normal;
-}
-
-#name5 {
-  font-size: 72px;
-  font-family: 'Overlock SC', cursive;
-  font-weight: normal;
-}
-
-#name6 {
-  font-size: 72px;
-  font-family: 'Boogaloo', cursive;
-  font-weight: normal;
-}
-
-#name7 {
-  font-size: 72px;
-  font-family: 'Solway', serif;
-  font-weight: normal;
-}
-
-#name8 {
+#name {
   font-size: 72px;
   font-family: 'Merriweather', serif;
-  font-weight: normal;
+  font-weight: 900;
 }
 
-#name9 {
-  font-size: 72px;
-}
-
-/* sets icons to match color scheme */
-svg, i {
-  color: rgba(0,0,0,.87);
+#subheader {
+  font-size: 36px;
+  font-family: 'Merriweather', serif;
+  font-weight: 700;
 }
 
 /* increases font size for headings */
 .heading {
-  font-size: 36px;
+  font-size: 48px;
+  font-family: 'Merriweather', serif;
+  font-weight: 700;
+}
+
+.subheading {
+  font-size: 28px;
+  font-family: 'Merriweather', serif;
+  font-weight: 700;
+}
+
+.small-subheading {
+  font-size: 24px;
+  font-family: 'Merriweather', serif;
+  font-weight: 700;
 }
 
 /* increases font size for paragraphs */
-p {
-  font-size: 18px;
+p, .icons a {
+  font-size: 20px;
 }
 
-p a {
+p a, p a:hover {
   text-decoration: underline;
 }
+
+/* ICONS */
+
+.icons {
+  text-align: left;
+  margin: auto;
+  width: fit-content;
+}
+
+/* sets icons to match color scheme */
+svg, i, .icons a, .icons a:hover {
+  color: rgba(0,0,0,.87);
+}
+
+/* IFRAMES - VIDEO & RESUME */
 
 /* sets resume container to full width and view height */
 #resume {
@@ -105,27 +101,33 @@ iframe {
   border: none;
 }
 
-/* sets width of images of different sizes */
-.photo-xs {
-  width: 15%;
+/* RECOGNITION */
+
+.ui.centered.stackable.three.column.grid div.column {
+  text-align: center;
+  padding: 2%;
 }
 
+/* PHOTOS */
+
+/* sets width of images of different sizes */
 .photo-small {
-  width: 20%;
+  width: 35%;
 }
 
 .photo-medium {
-  width: 35%;
+  width: 50%;
 }
 
 .photo-large {
   width: 75%;
 }
 
-.icons {
-  text-align: left;
-  margin: auto;
-  width: fit-content;
+/* HEADER */
+
+.item {
+  font-family: 'Merriweather', serif;
+  font-weight: 400;
 }
 
 /* sets mobile hamburger menu icon to not display on desktop */
@@ -143,10 +145,12 @@ iframe {
   padding-left: 20px;
 }
 
+/* MEDIA QUERIES */
+
 /* when menu starts to stack */
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 900px) {
   /* hide menu and add margin */
-  .ui.black.large.inverted.stackable.top.fixed.seven.item.menu {
+  .ui.black.massive.inverted.stackable.top.fixed.seven.item.menu {
     display: none;
     margin-top: 43px;
   }
@@ -157,14 +161,16 @@ iframe {
   }
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 901px) {
   /* reshow full menu on resize of window */
-  .ui.black.large.inverted.stackable.top.fixed.seven.item.menu {
+  .ui.black.massive.inverted.stackable.top.fixed.seven.item.menu {
     display: flex!important;
   }
 }
 
+/* MUSIC NOTE ANIMATION */
 /* https://codepen.io/MaryG/pen/wJMMdw */
+
 .notes {
   display: block;
   margin: auto;

@@ -15,7 +15,7 @@ const Photos = () => {
             <br/><br/>
             <img src={performance2} alt="Performance" className="photo-large" />
             <br/><br/>
-            <img src={npr_article} alt="NPR From the Top Article" className="photo-medium" />
+            <img src={npr_article} alt="NPR From the Top Article" className="photo-small" />
             <br/><br/>
             <img src={piano_performance} alt="Piano Performance" className="photo-large" />
             <br/><br/>

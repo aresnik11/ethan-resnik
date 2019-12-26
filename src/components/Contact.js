@@ -5,10 +5,10 @@ import Notes from './Notes'
 const Contact = () => {
     return (
         <>
-            <h1 className="heading">Get In Touch</h1>
+            <h1 className="heading">Get In Touch!</h1>
             <br/><br/>
             <div className="icons">
-            <a href="mailto:ethresnik@gmail.com">
+                <a href="mailto:ethresnik@gmail.com">
                     <Icon name="mail outline" size="huge" />
                     &nbsp;&nbsp;&nbsp;&nbsp;
                     ethresnik@gmail.com
@@ -19,12 +19,6 @@ const Contact = () => {
                     &nbsp;&nbsp;&nbsp;&nbsp;
                     914-406-6703
                 </a>
-                {/* <br/><br/>
-                <a href="https://www.youtube.com/channel/UCKISvqGCXDr0hbyTWrn9Jlg" target="_blank" rel="noopener noreferrer">
-                    <Icon name="youtube" size="huge" />
-                    &nbsp;&nbsp;&nbsp;&nbsp;
-                    https://www.youtube.com/channel/UCKISvqGCXDr0hbyTWrn9Jlg
-                </a> */}
                 <br/><br/>
                 <a href="https://www.instagram.com/ethresnik" target="_blank" rel="noopener noreferrer">
                     <Icon name="instagram" size="huge" />

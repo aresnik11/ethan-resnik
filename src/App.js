@@ -11,22 +11,25 @@ import Resume from './components/Resume';
 import Contact from './components/Contact';
 import Homepage from './components/Homepage';
 import Error from './components/Error';
+import ScrollToTop from './components/ScrollToTop';
 
 function App() {
   return (
     <div className="App">
       <Header />
       <div className="main-container">
-        <Switch>
-          <Route path="/bio" component={Bio} />
-          <Route path="/compositions" component={Works} />
-          <Route path="/recognition" component={Awards} />
-          <Route path="/photos" component={Photos} />
-          <Route path="/resume" component={Resume} />
-          <Route path="/contact" component={Contact} />
-          <Route exact path="/" component={Homepage} />
-          <Route component={Error} />
-        </Switch>
+        <ScrollToTop>
+          <Switch>
+            <Route path="/bio" component={Bio} />
+            <Route path="/compositions" component={Works} />
+            <Route path="/recognition" component={Awards} />
+            <Route path="/photos" component={Photos} />
+            <Route path="/resume" component={Resume} />
+            <Route path="/contact" component={Contact} />
+            <Route exact path="/" component={Homepage} />
+            <Route component={Error} />
+          </Switch>
+        </ScrollToTop>
       </div>
     </div>
   );

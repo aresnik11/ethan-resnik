@@ -14,7 +14,7 @@ class Header extends React.Component {
     }
 
     handleMenuClick = () => {
-        const menuLinks = document.querySelector('.ui.black.large.inverted.stackable.top.fixed.seven.item.menu')
+        const menuLinks = document.querySelector('.ui.black.massive.inverted.stackable.top.fixed.seven.item.menu')
         if (menuLinks.style.display === "block") {
             menuLinks.style.display = "none";
         }
@@ -31,7 +31,7 @@ class Header extends React.Component {
                     color="black"
                     inverted
                     widths={1}
-                    size="large"
+                    size="massive"
                     fixed="top"
                     stackable
                     id="menu"
@@ -46,7 +46,7 @@ class Header extends React.Component {
                     color="black"
                     inverted
                     widths={7}
-                    size="large"
+                    size="massive"
                     fixed="top"
                     stackable
                 >
