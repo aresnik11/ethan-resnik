@@ -3,7 +3,7 @@ import Winter from '../assets/Winter_Flashbacks.mp3'
 
 const Compositions = () => {
     return (
-        <>
+        <div>
             <h1 className="heading">Orchestra</h1>
             <h2 className="subheading">Snow Pond Overture</h2>
             <p><a href="https://youtu.be/O1Q97hqC7is" target="_blank" rel="noopener noreferrer">Performance by the New England Music Camp Symphony Orchestra</a></p>
@@ -86,7 +86,7 @@ const Compositions = () => {
             <h2 className="subheading">Prelude No. 4 in E-Flat Major - Piano</h2>
             <h2 className="subheading">Prelude No. 3 in A-Flat Major - Piano</h2>
             <h2 className="subheading">Prelude No. 1 in E Minor - Piano</h2>
-        </>
+        </div>
     )
 }
 

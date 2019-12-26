@@ -4,8 +4,8 @@ import 'semantic-ui-css/semantic.min.css'
 import { Switch, Route } from 'react-router-dom'
 import Header from './components/Header'
 import Bio from './components/Bio';
-import Works from './components/Compositions';
-import Awards from './components/Recognition';
+import CompContainer from './components/CompContainer';
+import Recognition from './components/Recognition';
 import Photos from './components/Photos';
 import Resume from './components/Resume';
 import Contact from './components/Contact';
@@ -21,8 +21,8 @@ function App() {
         <ScrollToTop>
           <Switch>
             <Route path="/bio" component={Bio} />
-            <Route path="/compositions" component={Works} />
-            <Route path="/recognition" component={Awards} />
+            <Route path="/compositions" component={CompContainer} />
+            <Route path="/recognition" component={Recognition} />
             <Route path="/photos" component={Photos} />
             <Route path="/resume" component={Resume} />
             <Route path="/contact" component={Contact} />

@@ -5,6 +5,8 @@ import npr_article from '../assets/npr_article.jpeg'
 import piano_performance from '../assets/piano_performance.jpeg'
 import performance3 from '../assets/performance3.jpeg'
 import performance4 from '../assets/performance4.png'
+import poster from '../assets/poster.jpg'
+import ethan_music from '../assets/ethan_music.jpg'
 
 const Photos = () => {
     return (
@@ -22,6 +24,11 @@ const Photos = () => {
             <img src={performance3} alt="Performance" className="photo-large" />
             <br/><br/>
             <img src={performance4} alt="Performance" className="photo-large" />
+            <br/><br/>
+            <img src={poster} alt="Performance" className="photo-small" />
+            <br/><br/>
+            <img src={ethan_music} alt="Ethan Resnik" className="photo-small" />
+
         </>
     )
 }

@@ -14,7 +14,7 @@ const Homepage = () => {
                     <Icon name="instagram" size="huge" />
                 </a>
                 <br/><br/><br/>
-                <img src={homepage} alt="Ethan Resnik" />
+                <img src={homepage} alt="Ethan Resnik" id="home-photo" />
         </>
     )
 }
