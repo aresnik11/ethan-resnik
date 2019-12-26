@@ -4,7 +4,7 @@ import Winter from '../assets/Winter_Flashbacks.mp3'
 const Compositions = () => {
     return (
         <div>
-            <h1 className="heading">Orchestra</h1>
+            <h1 className="heading" id="orchestra">Orchestra</h1>
             <h2 className="subheading">Snow Pond Overture</h2>
             <p><a href="https://youtu.be/O1Q97hqC7is" target="_blank" rel="noopener noreferrer">Performance by the New England Music Camp Symphony Orchestra</a></p>
             <iframe title="Snow Pond Overture" width="560" height="315" src="https://www.youtube.com/embed/O1Q97hqC7is" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture; fullscreen"></iframe>
@@ -17,7 +17,7 @@ const Compositions = () => {
 
             <br/>
 
-            <h1 className="heading">Concert Band</h1>
+            <h1 className="heading" id="concert-band">Concert Band</h1>
             <h2 className="subheading">Arrival</h2>
             <p><a href="https://youtu.be/sUVj3l9MF70" target="_blank" rel="noopener noreferrer">Performance by the Akron Symphonic Winds</a></p>
             <iframe title="Arrival - Akron Symphonic Winds" width="560" height="315" src="https://www.youtube.com/embed/sUVj3l9MF70" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture; fullscreen"></iframe>
@@ -30,12 +30,12 @@ const Compositions = () => {
 
             <br/>
 
-            <h1 className="heading">String Orchestra</h1>
+            <h1 className="heading" id="string-orchestra">String Orchestra</h1>
             <h2 className="subheading">Blue Moonlight</h2>
 
             <br/>
 
-            <h1 className="heading">Chamber Music</h1>
+            <h1 className="heading" id="chamber-music">Chamber Music</h1>
             <h2 className="subheading">Lake Kawaguchi at Dawn - Flute and Piano</h2>
             <p><a href="https://youtu.be/C-6KkAABLbQ" target="_blank" rel="noopener noreferrer">Live Performance</a></p>
             <iframe title="Lake Kawaguchi at Dawn" width="560" height="315" src="https://www.youtube.com/embed/C-6KkAABLbQ" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture; fullscreen"></iframe>
@@ -57,12 +57,14 @@ const Compositions = () => {
             <h2 className="subheading">Reflective Sunset - Clarinet in A, Two Violins, and Piano</h2>
             <h2 className="subheading">Reflections - String Trio</h2>
             <h2 className="subheading">Graduation Eve - Oboe/Soprano Saxophone and Piano</h2>
-            <p>Live Recording</p>
+            <p><a href="https://youtu.be/Dr_0K5ae6ck" target="_blank" rel="noopener noreferrer">Live Recording</a></p>
+            <iframe title="Graduation Eve" width="560" height="315" src="https://www.youtube.com/embed/Dr_0K5ae6ck" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture; fullscreen"></iframe>
+            <br/><br/>
             <h2 className="subheading">Duet for Clarinet and Bassoon</h2>
 
             <br/>
 
-            <h1 className="heading">Solo</h1>
+            <h1 className="heading" id="solo">Solo</h1>
             <h2 className="subheading">Une Promenade à travers le Metropolitan - Solo Piano</h2>
             <p><a href="https://youtu.be/gQd35r2Xr6g" target="_blank" rel="noopener noreferrer">Live Recording</a></p>
             <iframe title="Une Promenade à travers le Metropolitan" width="560" height="315" src="https://www.youtube.com/embed/gQd35r2Xr6g" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture; fullscreen"></iframe>

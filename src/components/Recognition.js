@@ -6,7 +6,6 @@ import nyssma from '../assets/nyssma.jpg'
 import fine_arts from '../assets/fine_arts_festival.png'
 import ny_festival from '../assets/ny_concert_festival.jpg'
 import NEMC from '../assets/NEMC.jpg'
-import { Grid } from 'semantic-ui-react'
 
 const Recognition = () => {
     return (
