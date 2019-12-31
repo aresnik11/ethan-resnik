@@ -11,8 +11,15 @@ class Header extends React.Component {
         this.setState({
             activeItem: name
         })
+        // on mobile menu, hides menu on click of an option
+        const mobileMenu = document.querySelector('.ui.black.massive.inverted.stackable.icon.top.fixed.one.item.menu')
+        const menuLinks = document.querySelector('.ui.black.massive.inverted.stackable.top.fixed.seven.item.menu')
+        if (mobileMenu.style.display !== "none") {
+            menuLinks.style.display = "none"
+        }
     }
 
+    // show/hide mobile menu on click of hamburger icon
     handleMenuClick = () => {
         const menuLinks = document.querySelector('.ui.black.massive.inverted.stackable.top.fixed.seven.item.menu')
         if (menuLinks.style.display === "block") {

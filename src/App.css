@@ -101,6 +101,8 @@ svg, i, .icons a, .icons a:hover {
 /* removes border from all iframes */
 iframe {
   border: none;
+  width: 560px;
+  height: 315px;
 }
 
 /* COMPOSITIONS */
@@ -225,6 +227,11 @@ iframe {
 
   #home-photo {
     width: 95%;
+  }
+
+  iframe {
+    width: 100%;
+    height: auto;
   }
 }
 
