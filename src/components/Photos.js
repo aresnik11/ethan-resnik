@@ -27,16 +27,16 @@ const Photos = () => {
             thumbnailHeight: 534
         },
         {
-            src: performance2,
-            thumbnail: performance2,
-            thumbnailWidth: 450,
-            thumbnailHeight: 245
-        },
-        {
             src: piano_performance,
             thumbnail: piano_performance,
             thumbnailWidth: 450,
             thumbnailHeight: 298
+        },
+        {
+            src: performance2,
+            thumbnail: performance2,
+            thumbnailWidth: 450,
+            thumbnailHeight: 245
         },
         {
             src: performance4,
@@ -84,7 +84,6 @@ const Photos = () => {
     return (
         <div className="white-container">
             <h1 className="heading">Take a Look!</h1>
-            <br/>
             <Gallery
                 images={images}
                 enableImageSelection={false}
