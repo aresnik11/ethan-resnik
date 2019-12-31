@@ -10,7 +10,7 @@ import ethan_music from '../assets/ethan_music.jpg'
 
 const Photos = () => {
     return (
-        <>
+        <div className="white-container">
             <h1 className="heading">Take a Look!</h1>
             <br/>
             <img src={performance} alt="Performance" className="photo-large" />
@@ -29,7 +29,7 @@ const Photos = () => {
             <br/><br/>
             <img src={ethan_music} alt="Ethan Resnik" className="photo-small" />
 
-        </>
+        </div>
     )
 }
 

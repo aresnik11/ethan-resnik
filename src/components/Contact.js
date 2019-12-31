@@ -4,9 +4,9 @@ import Notes from './Notes'
 
 const Contact = () => {
     return (
-        <>
+        <div className="white-container">
             <h1 className="heading">Get In Touch!</h1>
-            <br/><br/>
+            <br/>
             <div className="icons">
                 <a href="mailto:ethresnik@gmail.com">
                     <Icon name="mail outline" size="huge" />
@@ -26,9 +26,10 @@ const Contact = () => {
                     @ethresnik
                 </a>
             </div>
-            <br/><br/><br/>
+            <br/>
             <Notes />
-        </>
+            <br/>
+        </div>
     )
 }
 

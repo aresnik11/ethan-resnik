@@ -2,27 +2,19 @@
 
 /* GENERAL */
 
-.App {
+html, body {
   text-align: center;
+  scroll-behavior: smooth; /* makes scrolling to element smooth */
+  scroll-padding-top: 70px; /* adds padding to account for header when scrolling to element */
+}
+
+/* 8769, 8771, 8775 */
+.App {
   min-height: 100vh;
-
-  /* background-color: #b8c6db;
-  background-image: linear-gradient(315deg, #b8c6db 0%, #f5f7fa 74%); */
-
-  /* background: #ECE9E6;
-  background: -webkit-linear-gradient(to left, #FFFFFF, #ECE9E6);
-  background: linear-gradient(to left, #FFFFFF, #ECE9E6); */
-
-  /* background: #8e9eab;
-  background: -webkit-linear-gradient(to right, #eef2f3, #8e9eab);  
-  background: linear-gradient(to right, #eef2f3, #8e9eab); */
-
-  /* background: url('./assets/piano.jpeg');
+  background: url('./assets/IMG_8769.jpg');
   background-position: center;
-  background-repeat: repeat-y;
-  background-position: right top;
-  display: grid;
-  grid-template-columns: 2fr 1fr; */
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 /* adds padding and margin to main container */
@@ -31,6 +23,16 @@
   margin-right: 5%;
   padding-top: 85px;
   padding-bottom: 50px;
+}
+
+/* makes white boxes so text is readable */
+.white-container {
+  padding: 3%;
+  width: fit-content;
+  margin: auto;
+  border: 2px solid rgba(0,0,0,.87);
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.75);
 }
 
 /* FONT SIZES AND ICONS */
@@ -109,8 +111,11 @@ iframe {
   grid-gap: 20px;
 }
 
-.ui.vertical.menu {
+#vert-cont {
   position: fixed;
+  border: 2px solid rgba(0,0,0,.87);
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.75);
 }
 
 .ui.vertical.menu .item {
@@ -227,6 +232,18 @@ iframe {
   }
 }
 
+@media only screen and (max-width: 1068px) {
+  /* hide table of contents */
+  #vert-cont {
+    display: none;
+  }
+
+  /* recenter compositions */
+  .comp-grid {
+    display: block;
+  }
+}
+
 /* MUSIC NOTE ANIMATION */
 /* https://codepen.io/MaryG/pen/wJMMdw */
 
@@ -236,7 +253,7 @@ iframe {
   position: relative;
   width: 50%;
   min-width: 300px;
-  height: 200px;
+  height: 100px;
   border: 0px solid #000;
 }
 

@@ -10,7 +10,6 @@ import NEMC from '../assets/NEMC.jpg'
 const Recognition = () => {
     return (
         <>
-            <br/>
             <div className="rec-grid">
                 <div>
                     <div>

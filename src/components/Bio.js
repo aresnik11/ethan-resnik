@@ -3,7 +3,7 @@ import about from '../assets/about.jpg'
 
 const Bio = () => {
     return (
-        <>
+        <div className="white-container">
             <img src={about} alt="Ethan Resnik" className="photo-large" />
             <h1 className="heading">All About Ethan</h1>
             <p>
@@ -35,7 +35,7 @@ const Bio = () => {
             who was critically injured in an accident. He wants to continue
             using his music to bring healing and hope to our world.
             </p>
-        </>
+        </div>
     )
 }
 
