@@ -69,7 +69,7 @@ html, body {
 }
 
 /* increases font size for paragraphs */
-p, .icons a {
+p, .icons span {
   font-size: 20px;
 }
 
