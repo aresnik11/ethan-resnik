@@ -5,8 +5,6 @@ import { Button } from 'semantic-ui-react'
 const Resume = () => {
     return (
         <>
-            <iframe src={resume} title="Ethan Resnik Resume" id="resume"></iframe>
-            <br/><br/><br/>
             <Button
                 color='black'
                 content="View Resume"
@@ -16,6 +14,8 @@ const Resume = () => {
                 target="_blank"
                 rel="noopener noreferrer"
             />
+            <br/><br/><br/>
+            <iframe src={resume} title="Ethan Resnik Resume" id="resume"></iframe>
         </>
     )
 }

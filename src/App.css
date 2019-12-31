@@ -240,6 +240,10 @@ iframe {
     grid-template-columns: 1fr 1fr;
     grid-gap: 20px;
   }
+
+  .App {
+    background-position: center top;
+  }
 }
 
 /* MOBILE SCREEN WIDTHS */
@@ -271,10 +275,6 @@ iframe {
 
   .ui.black.massive.inverted.stackable.top.fixed.seven.item.menu a {
     width: 14.285%;
-  }
-
-  .App {
-    background-position: center top;
   }
 }
 
