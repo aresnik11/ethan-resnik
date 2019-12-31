@@ -28,7 +28,7 @@ class CompMenu extends React.Component {
                         <Menu.Menu>
                             <Menu.Item
                                 as="a"
-                                href="#snow-pond"
+                                href="#snow-pond-overture"
                                 name='Snow Pond Overture'
                                 active={this.state.activeItem === 'Snow Pond Overture'}
                                 onClick={this.handleItemClick}
@@ -89,7 +89,7 @@ class CompMenu extends React.Component {
                         <Menu.Menu>
                             <Menu.Item
                                 as="a"
-                                href="#lake-kawaguchi"
+                                href="#lake-kawaguchi-at-dawn"
                                 name='Lake Kawaguchi at Dawn'
                                 active={this.state.activeItem === 'Lake Kawaguchi at Dawn'}
                                 onClick={this.handleItemClick}
@@ -98,7 +98,7 @@ class CompMenu extends React.Component {
                             </Menu.Item>
                             <Menu.Item
                                 as="a"
-                                href="#dance-phantoms"
+                                href="#dance-of-the-phantoms"
                                 name='Dance of the Phantoms'
                                 active={this.state.activeItem === 'Dance of the Phantoms'}
                                 onClick={this.handleItemClick}
@@ -114,7 +114,7 @@ class CompMenu extends React.Component {
                             />
                             <Menu.Item
                                 as="a"
-                                href="#night-rainforest"
+                                href="#night-in-the-rainforest"
                                 name='Night in the Rainforest'
                                 active={this.state.activeItem === 'Night in the Rainforest'}
                                 onClick={this.handleItemClick}
@@ -141,7 +141,7 @@ class CompMenu extends React.Component {
                         <Menu.Menu>
                             <Menu.Item
                                 as="a"
-                                href="#promenade"
+                                href="#une-promenade-a-travers-le-metropolitan"
                                 name='Une Promenade à travers le Metropolitan'
                                 active={this.state.activeItem === 'Une Promenade à travers le Metropolitan'}
                                 onClick={this.handleItemClick}
@@ -150,7 +150,7 @@ class CompMenu extends React.Component {
                             </Menu.Item>
                             <Menu.Item
                                 as="a"
-                                href="#waltz5"
+                                href="#waltz-no-5"
                                 name='Waltz No. 5'
                                 active={this.state.activeItem === 'Waltz No. 5'}
                                 onClick={this.handleItemClick}
@@ -159,7 +159,7 @@ class CompMenu extends React.Component {
                             </Menu.Item>
                             <Menu.Item
                                 as="a"
-                                href="#prelude2"
+                                href="#prelude-no-2"
                                 name='Prelude No. 2'
                                 active={this.state.activeItem === 'Prelude No. 2'}
                                 onClick={this.handleItemClick}
@@ -168,7 +168,7 @@ class CompMenu extends React.Component {
                             </Menu.Item>
                             <Menu.Item
                                 as="a"
-                                href="#nocturne1"
+                                href="#nocturne-no-1"
                                 name='Nocturne No. 1'
                                 active={this.state.activeItem === 'Nocturne No. 1'}
                                 onClick={this.handleItemClick}

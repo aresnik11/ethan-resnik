@@ -94,15 +94,12 @@ const Photos = () => {
     return (
         <div className="white-container">
             <h1 className="heading">Take a Look!</h1>
-            <div className="photo-gallery">
-                <Gallery
-                    images={images}
-                    enableImageSelection={false}
-                    backdropClosesModal={true}
-                    rowHeight={300}
-                />
-            </div>
-            
+            <Gallery
+                images={images}
+                enableImageSelection={false}
+                backdropClosesModal={true}
+                rowHeight={300}
+            />
         </div>
     )
 }

@@ -5,7 +5,7 @@ const Compositions = () => {
     return (
         <div className="white-container">
             <h1 className="heading" id="orchestra">Orchestra</h1>
-            <h2 className="subheading" id="snow-pond">Snow Pond Overture</h2>
+            <h2 className="subheading" id="snow-pond-overture">Snow Pond Overture</h2>
             <p><a href="https://youtu.be/O1Q97hqC7is" target="_blank" rel="noopener noreferrer">Performance by the New England Music Camp Symphony Orchestra</a></p>
             <iframe title="Snow Pond Overture" src="https://www.youtube.com/embed/O1Q97hqC7is" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture; fullscreen"></iframe>
             <br/><br/>
@@ -36,11 +36,11 @@ const Compositions = () => {
             <br/>
 
             <h1 className="heading" id="chamber-music">Chamber Music</h1>
-            <h2 className="subheading" id="lake-kawaguchi">Lake Kawaguchi at Dawn - Flute and Piano</h2>
+            <h2 className="subheading" id="lake-kawaguchi-at-dawn">Lake Kawaguchi at Dawn - Flute and Piano</h2>
             <p><a href="https://youtu.be/C-6KkAABLbQ" target="_blank" rel="noopener noreferrer">Live Performance</a></p>
             <iframe title="Lake Kawaguchi at Dawn" src="https://www.youtube.com/embed/C-6KkAABLbQ" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture; fullscreen"></iframe>
             <br/><br/>
-            <h2 className="subheading" id="dance-phantoms">Dance of the Phantoms - String Quartet</h2>
+            <h2 className="subheading" id="dance-of-the-phantoms">Dance of the Phantoms - String Quartet</h2>
             <p><a href="https://youtu.be/WUO8FuzWgH4" target="_blank" rel="noopener noreferrer">Live Performance</a></p>
             <iframe title="Dance of the Phantoms" src="https://www.youtube.com/embed/WUO8FuzWgH4" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture; fullscreen"></iframe>
             <br/><br/>
@@ -50,7 +50,7 @@ const Compositions = () => {
                 <source src={Winter} type="audio/mpeg" />
             </audio>
             <br/><br/>
-            <h2 className="subheading" id="night-rainforest">Night in the Rainforest - Clarinet in Bb/Bass Clarinet, Violin 1, Violin 2, Piano</h2>
+            <h2 className="subheading" id="night-in-the-rainforest">Night in the Rainforest - Clarinet in Bb/Bass Clarinet, Violin 1, Violin 2, Piano</h2>
             <p><a href="https://youtu.be/n2ue2kSdeEs" target="_blank" rel="noopener noreferrer">Live Recording</a></p>
             <iframe title="Night in the Rainforest" src="https://www.youtube.com/embed/n2ue2kSdeEs" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture; fullscreen"></iframe>
             <br/><br/>
@@ -65,21 +65,21 @@ const Compositions = () => {
             <br/>
 
             <h1 className="heading" id="solo">Solo</h1>
-            <h2 className="subheading" id="promenade">Une Promenade à travers le Metropolitan - Solo Piano</h2>
+            <h2 className="subheading" id="une-promenade-a-travers-le-metropolitan">Une Promenade à travers le Metropolitan - Solo Piano</h2>
             <p><a href="https://youtu.be/gQd35r2Xr6g" target="_blank" rel="noopener noreferrer">Live Recording</a></p>
             <iframe title="Une Promenade à travers le Metropolitan" src="https://www.youtube.com/embed/gQd35r2Xr6g" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture; fullscreen"></iframe>
             <br/><br/>
-            <h2 className="subheading" id="waltz5">Waltz No. 5 in F Minor - Solo Piano</h2>
+            <h2 className="subheading" id="waltz-no-5">Waltz No. 5 in F Minor - Solo Piano</h2>
             <p><a href="https://youtu.be/6MFtip48FCk" target="_blank" rel="noopener noreferrer">Live Recording</a></p>
             <iframe title="Waltz No. 5 in F Minor" src="https://www.youtube.com/embed/6MFtip48FCk" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture; fullscreen"></iframe>
             <br/><br/>
             <h2 className="subheading">Two Pieces for Solo Piano - "Water" and "Sunrise"</h2>
             <h2 className="subheading">Atonal Piano</h2>
-            <h2 className="subheading" id="prelude2">Prelude No. 2 in C-Sharp Minor - Solo Piano</h2>
+            <h2 className="subheading" id="prelude-no-2">Prelude No. 2 in C-Sharp Minor - Solo Piano</h2>
             <p><a href="https://youtu.be/-TG9E_bUNas" target="_blank" rel="noopener noreferrer">Live Performance</a></p>
             <iframe title="Prelude No. 2 in C-Sharp Minor" src="https://www.youtube.com/embed/6MFtip48FCk" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture; fullscreen"></iframe>
             <br/><br/>
-            <h2 className="subheading" id="nocturne1">Nocturne No. 1 in E-Flat Major</h2>
+            <h2 className="subheading" id="nocturne-no-1">Nocturne No. 1 in E-Flat Major</h2>
             <p><a href="https://youtu.be/rjBdftbZ-ig" target="_blank" rel="noopener noreferrer">Live Recording</a></p>
             <iframe title="Nocturne No. 1 in E-Flat Major" src="https://www.youtube.com/embed/rjBdftbZ-ig" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture; fullscreen"></iframe>
             <br/><br/>

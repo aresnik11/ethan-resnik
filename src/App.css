@@ -5,16 +5,15 @@
 html, body {
   text-align: center;
   scroll-behavior: smooth; /* makes scrolling to element smooth */
-  scroll-padding-top: 70px; /* adds padding to account for header when scrolling to element */
+  /* scroll-padding-top: 70px; */
+  /* adds padding to account for header when scrolling to element */
 }
 
-/* 8769, 8771, 8775 */
 .App {
   min-height: 100vh;
   background: url('./assets/music_background.jpg');
   background-position: center;
   background-size: 100%;
-  /* background-attachment: fixed; */
   background-repeat: repeat-y;
 }
 
@@ -104,7 +103,7 @@ svg, i, .icons a, .icons a:hover {
 
 /* sets resume container to full width and view height */
 #resume {
-  width: 80%;
+  width: 100%;
   height: 100vh;
 }
 
@@ -128,6 +127,7 @@ iframe {
   grid-gap: 20px;
 }
 
+/* makes table of contents fixed, rounded edges and background */
 #vert-cont {
   position: fixed;
   border: 2px solid rgba(0,0,0,.87);
@@ -135,6 +135,7 @@ iframe {
   background: rgba(255, 255, 255, 0.75);
 }
 
+/* makes background solid on hover */
 #vert-cont:hover {
   background: rgba(255, 255, 255, 1);
 }
@@ -145,6 +146,16 @@ iframe {
 
 .ui.vertical.menu a {
   color: rgba(0,0,0,.87);
+}
+
+/* accounts for scrolling to element with fixed header */
+.comp-grid h1::before, .comp-grid h2::before { 
+  display: block; 
+  content: " "; 
+  margin-top: -70px; 
+  height: 70px; 
+  visibility: hidden; 
+  pointer-events: none;
 }
 
 /* RECOGNITION */
@@ -169,11 +180,6 @@ iframe {
 
 .ReactGridGallery {
   overflow: auto;
-}
-
-.photo-gallery div {
-  /* width: 100%; */
-  margin: auto;
 }
 
 /* sets width of images of different sizes */
@@ -223,10 +229,6 @@ iframe {
 
   .ui.black.massive.inverted.stackable.top.fixed.seven.item.menu a {
     width: 100%;
-  }
-
-  .photo-small {
-    width: 75%;
   }
 
   .photo-large {
@@ -282,6 +284,7 @@ iframe {
   }
 }
 
+/* compositions - when need to hide table of contents */
 @media only screen and (max-width: 1068px) {
   /* hide table of contents */
   #vert-cont {
