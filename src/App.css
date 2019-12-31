@@ -11,7 +11,7 @@ html, body {
 /* 8769, 8771, 8775 */
 .App {
   min-height: 100vh;
-  background: url('./assets/IMG_8769.jpg');
+  background: url('./assets/music_background.jpg');
   background-position: center;
   background-size: 100%;
   /* background-attachment: fixed; */
