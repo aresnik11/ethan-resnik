@@ -146,6 +146,10 @@ iframe {
 
 /* PHOTOS */
 
+.ReactGridGallery {
+  overflow: auto;
+}
+
 /* sets width of images of different sizes */
 .photo-small {
   width: 35%;
