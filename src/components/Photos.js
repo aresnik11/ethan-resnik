@@ -32,14 +32,12 @@ const Photos = () => {
             thumbnailWidth: 450,
             thumbnailHeight: 245
         },
-
         {
             src: piano_performance,
             thumbnail: piano_performance,
             thumbnailWidth: 450,
             thumbnailHeight: 298
         },
-
         {
             src: performance4,
             thumbnail: performance4,
@@ -47,12 +45,11 @@ const Photos = () => {
             thumbnailHeight: 245
         },
         {
-            src: poster,
-            thumbnail: poster,
+            src: npr_article,
+            thumbnail: npr_article,
             thumbnailWidth: 450,
             thumbnailHeight: 534
         },
-
         {
             src: npr,
             thumbnail: npr,
@@ -71,12 +68,17 @@ const Photos = () => {
             thumbnailWidth: 450,
             thumbnailHeight: 245
         },
-
         {
             src: homepage,
             thumbnail: homepage,
             thumbnailWidth: 450,
             thumbnailHeight: 298
+        },
+        {
+            src: poster,
+            thumbnail: poster,
+            thumbnailWidth: 450,
+            thumbnailHeight: 534
         }
     ]
     return (
