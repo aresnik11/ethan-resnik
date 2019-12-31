@@ -6,7 +6,7 @@ const Bio = () => {
         <div className="white-container">
             <img src={about} alt="Ethan Resnik" className="photo-large" />
             <h1 className="heading">All About Ethan</h1>
-            <p>
+            <p className="just">
             Ethan Resnik is 17 and has been playing the piano for 11 years. He
             has composed over 40 compositions, including chamber music, a
             piano concerto, as well as concert band and orchestral works. At
@@ -25,7 +25,7 @@ const Bio = () => {
             spent his sixth summer at New England Music Camp. Ethan is a
             composition major at The Juilliard School Pre-College Division
             and is part the New York Youth Symphony Composition Program.
-            He was featured on NPR’s <em>From the Top</em>, Episode 377, to be aired in
+            He was featured on NPR's <em>From the Top</em>, Episode 377, to be aired in
             February, 2020. For two years, Ethan performed weekly hour-long
             piano concerts for residents and dementia patients at a local
             assisted living facility. He initiated two solo piano performances,

@@ -78,6 +78,10 @@ p a, p a:hover {
   text-decoration: underline;
 }
 
+.just {
+  text-align: justify;
+}
+
 /* ICONS */
 
 .white-container i:hover {
@@ -100,7 +104,7 @@ svg, i, .icons a, .icons a:hover {
 
 /* sets resume container to full width and view height */
 #resume {
-  width: 100%;
+  width: 80%;
   height: 100vh;
 }
 
