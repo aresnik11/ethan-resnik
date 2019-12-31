@@ -13,8 +13,9 @@ html, body {
   min-height: 100vh;
   background: url('./assets/IMG_8769.jpg');
   background-position: center;
-  background-size: 100vw 100vh;
-  background-attachment: fixed;
+  background-size: 100%;
+  /* background-attachment: fixed; */
+  background-repeat: repeat-y;
 }
 
 /* adds padding and margin to main container */
@@ -118,6 +119,10 @@ iframe {
   border: 2px solid rgba(0,0,0,.87);
   border-radius: 10px;
   background: rgba(255, 255, 255, 0.75);
+}
+
+#vert-cont:hover {
+  background: rgba(255, 255, 255, 1);
 }
 
 .ui.vertical.menu .item {
