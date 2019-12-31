@@ -18,7 +18,7 @@ const Photos = () => {
             src: performance,
             thumbnail: performance,
             thumbnailWidth: 450,
-            thumbnailHeight: 245
+            thumbnailHeight: 247
         },
         {
             src: ethan_music,
@@ -42,7 +42,7 @@ const Photos = () => {
             src: performance4,
             thumbnail: performance4,
             thumbnailWidth: 450,
-            thumbnailHeight: 245
+            thumbnailHeight: 247
         },
         {
             src: npr_article,
@@ -60,7 +60,7 @@ const Photos = () => {
             src: about,
             thumbnail: about,
             thumbnailWidth: 450,
-            thumbnailHeight: 245
+            thumbnailHeight: 247
         },
         {
             src: performance3,
@@ -84,12 +84,15 @@ const Photos = () => {
     return (
         <div className="white-container">
             <h1 className="heading">Take a Look!</h1>
-            <Gallery
-                images={images}
-                enableImageSelection={false}
-                backdropClosesModal={true}
-                rowHeight={300}
-            />
+            <div className="photo-gallery">
+                <Gallery
+                    images={images}
+                    enableImageSelection={false}
+                    backdropClosesModal={true}
+                    rowHeight={300}
+                />
+            </div>
+            
         </div>
     )
 }

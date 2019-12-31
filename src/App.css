@@ -167,6 +167,11 @@ iframe {
   overflow: auto;
 }
 
+.photo-gallery div {
+  /* width: 100%; */
+  margin: auto;
+}
+
 /* sets width of images of different sizes */
 .photo-small {
   width: 35%;
@@ -212,6 +217,10 @@ iframe {
     margin-top: 43px;
   }
 
+  .ui.black.massive.inverted.stackable.top.fixed.seven.item.menu a {
+    width: 100%;
+  }
+
   .photo-small {
     width: 75%;
   }
@@ -251,10 +260,6 @@ iframe {
     width: 100%;
     height: auto;
   }
-
-  .App {
-    background-position: center top;
-  }
 }
 
 /* DESKTOP SCREEN WIDTHS */
@@ -262,6 +267,14 @@ iframe {
   /* reshow full menu on resize of window */
   .ui.black.massive.inverted.stackable.top.fixed.seven.item.menu {
     display: flex!important;
+  }
+
+  .ui.black.massive.inverted.stackable.top.fixed.seven.item.menu a {
+    width: 14.285%;
+  }
+
+  .App {
+    background-position: center top;
   }
 }
 
