@@ -80,6 +80,11 @@ p a, p a:hover {
 
 /* ICONS */
 
+i:hover {
+  transition: all .3s ease;
+  transform: scale(1.1) translateY(-5px);
+}
+
 .icons {
   text-align: left;
   margin: auto;
@@ -240,6 +245,10 @@ iframe {
   iframe {
     width: 100%;
     height: auto;
+  }
+
+  .App {
+    background-position: center top;
   }
 }
 
