@@ -80,7 +80,7 @@ p a, p a:hover {
 
 /* ICONS */
 
-i:hover {
+.white-container i:hover {
   transition: all .3s ease;
   transform: scale(1.1) translateY(-5px);
 }
@@ -102,6 +102,11 @@ svg, i, .icons a, .icons a:hover {
 #resume {
   width: 100%;
   height: 100vh;
+}
+
+.ui.black.big.button {
+  font-family: 'Merriweather', serif;
+  font-weight: 400;
 }
 
 /* removes border from all iframes */
