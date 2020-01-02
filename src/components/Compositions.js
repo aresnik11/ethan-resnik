@@ -25,7 +25,7 @@ const Compositions = () => {
             <p><a href="https://youtu.be/bAgi4O8INDU" target="_blank" rel="noopener noreferrer">Performance by the Byram Hills High School Wind Symphony</a></p>
             <iframe title="Arrival - Byram Hills High School" src="https://www.youtube.com/embed/bAgi4O8INDU" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture; fullscreen"></iframe>
             <br/><br/>
-            <h2 className="subheading">Flight 737</h2>
+            <h2 className="subheading">Flight</h2>
             <h2 className="subheading">Soldier March</h2>
 
             <br/>

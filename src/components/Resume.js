@@ -1,5 +1,5 @@
 import React from 'react'
-import resume from '../assets/Ethan-Resnik-Resume.pdf'
+import resume from '../assets/ethan_resnik_resume.pdf'
 import { Button } from 'semantic-ui-react'
 
 const Resume = () => {
