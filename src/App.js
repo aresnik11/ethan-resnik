@@ -16,16 +16,16 @@ import ScrollToTop from './components/ScrollToTop';
 function App() {
   return (
     <div className="App">
-      <Header />
+      {/* <Header /> */}
       <div className="main-container">
         <ScrollToTop>
           <Switch>
-            <Route path="/bio" component={Bio} />
+            {/* <Route path="/bio" component={Bio} />
             <Route path="/compositions" component={CompContainer} />
             <Route path="/recognition" component={Recognition} />
             <Route path="/photos" component={Photos} />
             <Route path="/resume" component={Resume} />
-            <Route path="/contact" component={Contact} />
+            <Route path="/contact" component={Contact} /> */}
             <Route exact path="/" component={Homepage} />
             <Route component={Error} />
           </Switch>

@@ -13,8 +13,8 @@ const Homepage = () => {
             <a href="https://www.instagram.com/ethresnik" target="_blank" rel="noopener noreferrer">
                 <Icon name="instagram" size="huge" />
             </a>
-            <br/><br/><br/>
-            <img src={homepage} alt="Ethan Resnik" id="home-photo" />
+            {/* <br/><br/><br/>
+            <img src={homepage} alt="Ethan Resnik" id="home-photo" /> */}
         </div>
     )
 }
