@@ -1,23 +1,21 @@
-@import url('https://fonts.googleapis.com/css?family=Merriweather:400,700,900&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Merriweather:400,700,900&display=swap");
 
 /* GENERAL */
 
-html, body {
+html,
+body {
   text-align: center;
-  scroll-behavior: smooth; /* makes scrolling to element smooth */
-  /* scroll-padding-top: 70px; */
-  /* adds padding to account for header when scrolling to element */
+  scroll-behavior: smooth;
 }
 
 .App {
   min-height: 100vh;
-  background: url('./assets/music_background.jpg');
+  background: url("./assets/music_background.jpg");
   background-position: center;
   background-size: 100%;
   background-repeat: repeat-y;
 }
 
-/* adds padding and margin to main container */
 .main-container {
   margin-left: 5%;
   margin-right: 5%;
@@ -25,55 +23,54 @@ html, body {
   padding-bottom: 50px;
 }
 
-/* makes white boxes so text is readable */
 .white-container {
   padding: 3%;
   width: fit-content;
   margin: auto;
-  border: 2px solid rgba(0,0,0,.87);
+  border: 2px solid rgba(0, 0, 0, 0.87);
   border-radius: 10px;
   background: rgba(255, 255, 255, 0.75);
 }
 
-/* FONT SIZES AND ICONS */
+/* FONT SIZES */
 
-#name {
+.name {
   font-size: 72px;
-  font-family: 'Merriweather', serif;
+  font-family: "Merriweather", serif;
   font-weight: 900;
 }
 
-#subheader {
+.subheader {
   font-size: 36px;
-  font-family: 'Merriweather', serif;
+  font-family: "Merriweather", serif;
   font-weight: 700;
 }
 
-/* increases font size for headings */
 .heading {
   font-size: 48px;
-  font-family: 'Merriweather', serif;
+  font-family: "Merriweather", serif;
   font-weight: 700;
 }
 
 .subheading {
   font-size: 28px;
-  font-family: 'Merriweather', serif;
+  font-family: "Merriweather", serif;
   font-weight: 700;
 }
 
 .small-subheading {
   font-size: 22px;
-  font-family: 'Merriweather', serif;
+  font-family: "Merriweather", serif;
   font-weight: 700;
 }
 
-/* increases font size for paragraphs */
-p, .icons span {
+p,
+.icons span {
   font-size: 20px;
 }
 
-p a, p a:hover {
+p a,
+p a:hover {
   text-decoration: underline;
 }
 
@@ -83,9 +80,14 @@ p a, p a:hover {
 
 /* ICONS */
 
-.white-container i:hover {
-  transition: all .3s ease;
+.home-icons i:hover,
+.icons div:hover {
+  transition: all 0.3s ease;
   transform: scale(1.1) translateY(-5px);
+}
+
+.home-icons {
+  margin-bottom: 40px;
 }
 
 .icons {
@@ -94,25 +96,30 @@ p a, p a:hover {
   width: fit-content;
 }
 
-/* sets icons to match color scheme */
-svg, i, .icons a, .icons a:hover {
-  color: rgba(0,0,0,.87);
+.icons div {
+  margin-bottom: 20px;
+}
+
+svg,
+i,
+.icons a,
+.icons a:hover {
+  color: rgba(0, 0, 0, 0.87);
 }
 
 /* IFRAMES - VIDEO & RESUME */
 
-/* sets resume container to full width and view height */
-#resume {
+.resume {
   width: 100%;
   height: 100vh;
+  margin-top: 40px;
 }
 
 .ui.black.big.button {
-  font-family: 'Merriweather', serif;
+  font-family: "Merriweather", serif;
   font-weight: 400;
 }
 
-/* removes border from all iframes */
 iframe {
   border: none;
   width: 560px;
@@ -127,16 +134,14 @@ iframe {
   grid-gap: 20px;
 }
 
-/* makes table of contents fixed, rounded edges and background */
-#vert-cont {
+#compositions-menu {
   position: fixed;
-  border: 2px solid rgba(0,0,0,.87);
+  border: 2px solid rgba(0, 0, 0, 0.87);
   border-radius: 10px;
   background: rgba(255, 255, 255, 0.75);
 }
 
-/* makes background solid on hover */
-#vert-cont:hover {
+#compositions-menu:hover {
   background: rgba(255, 255, 255, 1);
 }
 
@@ -145,17 +150,26 @@ iframe {
 }
 
 .ui.vertical.menu a {
-  color: rgba(0,0,0,.87);
+  color: rgba(0, 0, 0, 0.87);
 }
 
 /* accounts for scrolling to element with fixed header */
-.comp-grid h1::before, .comp-grid h2::before { 
-  display: block; 
-  content: " "; 
-  margin-top: -70px; 
-  height: 70px; 
-  visibility: hidden; 
+.comp-grid h1::before,
+.comp-grid h2::before {
+  display: block;
+  content: "";
+  margin-top: -70px;
+  height: 70px;
+  visibility: hidden;
   pointer-events: none;
+}
+
+.comp-section {
+  margin-bottom: 40px;
+}
+
+.composition {
+  margin-bottom: 30px;
 }
 
 /* RECOGNITION */
@@ -168,10 +182,11 @@ iframe {
 
 .rec-grid > div {
   padding: 5%;
-  border: 2px solid rgba(0,0,0,.87);
+  border: 2px solid rgba(0, 0, 0, 0.87);
   border-radius: 10px;
   background: rgba(255, 255, 255, 0.75);
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
@@ -180,6 +195,10 @@ iframe {
 
 .ReactGridGallery {
   overflow: auto;
+}
+
+.home-photo {
+  width: 512px;
 }
 
 /* sets width of images of different sizes */
@@ -198,21 +217,21 @@ iframe {
 /* HEADER */
 
 .item {
-  font-family: 'Merriweather', serif;
+  font-family: "Merriweather", serif;
   font-weight: 400;
 }
 
 /* sets mobile hamburger menu icon to not display on desktop */
-#menu {
+#hamburger-menu {
   display: none;
 }
 
-#menu a {
+#hamburger-menu a {
   justify-content: left;
   padding-left: 20px;
 }
 
-#menu i {
+#hamburger-menu i {
   color: white;
   padding-left: 20px;
 }
@@ -236,7 +255,7 @@ iframe {
   }
 
   /* show mobile hamburger menu icon */
-  #menu {
+  #hamburger-menu {
     display: flex;
   }
 
@@ -261,7 +280,7 @@ iframe {
     grid-gap: 20px;
   }
 
-  #home-photo {
+  .home-photo {
     width: 95%;
   }
 
@@ -276,7 +295,7 @@ iframe {
 @media only screen and (min-width: 901px) {
   /* reshow full menu on resize of window */
   .ui.black.massive.inverted.stackable.top.fixed.seven.item.menu {
-    display: flex!important;
+    display: flex !important;
   }
 
   .ui.black.massive.inverted.stackable.top.fixed.seven.item.menu a {
@@ -287,7 +306,7 @@ iframe {
 /* compositions - when need to hide table of contents */
 @media only screen and (max-width: 1068px) {
   /* hide table of contents */
-  #vert-cont {
+  #compositions-menu {
     display: none;
   }
 
@@ -302,7 +321,7 @@ iframe {
 
 .notes {
   display: block;
-  margin: auto;
+  margin: 15px auto;
   position: relative;
   width: 50%;
   min-width: 300px;
